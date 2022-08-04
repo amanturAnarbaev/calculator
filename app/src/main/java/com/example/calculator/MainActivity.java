@@ -105,6 +105,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.bt_9:
                 if (textView.getText().toString().equals("0")) {
                     textView.setText("9");
+                }else if (isOperation) {
+                    textView.setText("9");
                 } else {
                     textView.append("9");
                 }
